@@ -1,0 +1,50 @@
+BODY
+{
+    SCROLLBAR-FACE-COLOR: #CCCCC;
+    FONT-SIZE: 12px;
+	line-height: 10pt;
+    SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+    SCROLLBAR-SHADOW-COLOR: #99999;
+    COLOR: black;
+    SCROLLBAR-3DLIGHT-COLOR: #99999;
+    SCROLLBAR-ARROW-COLOR: #ffffff;
+    SCROLLBAR-TRACK-COLOR: #e3e3e3;
+    FONT-FAMILY: Arial;
+    SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+    SCROLLBAR-BASE-COLOR: #99999
+}
+
+A:link  {color: #333399; font-size: 9pt;font-weight:normal; text-decoration: none; cursor: hand}
+A:visited  {color: #333399; font-size: 9pt;font-weight: normal; text-decoration: underline; text-decoration: none}
+A:active  {color:  #333399; font-size: 9pt;font-weight:normal; text-decoration: underline; text-decoration: none}
+A:hover {color: #ff0000; font-size: 9pt;font-weight:normal; text-decoration: none}
+
+.but_thin
+{
+    BORDER-RIGHT: #104a7b 1px solid;
+    BORDER-TOP: #afc4d5 1px solid;
+    FONT-SIZE: 12px;
+    BACKGROUND: #BACFE7;
+    BORDER-LEFT: #afc4d5 1px solid;
+    CURSOR: hand;
+    COLOR: #000066;
+    BORDER-BOTTOM: #104a7b 1px solid;
+    FONT-FAMILY: Arial;
+    HEIGHT: 20px;
+    WEIGHT: 70px
+}
+
+.but_index
+{
+    BACKGROUND-COLOR: #E8EFF7; 
+	BORDER-BOTTOM:#000099 1px solid; 
+	BORDER-LEFT:#000099 1px solid; 
+	BORDER-RIGHT:#000099 1px solid; 
+	BORDER-TOP:#000099 1px solid
+}
+
+.sty { font-size: 12px; line-height: 14px; color: #676767; text-decoration: none; 
+letter-spacing: 2px; padding-left: 35px; padding-top: 10px} 
+
+table { color:  #333399;font-size: 10pt;font-weight:15pt;line-height: 15pt;text-decoration: none }
+

@@ -1,0 +1,51 @@
+<!-- the proxool configuration can be embedded within your own application's.
+Anything outside the "proxool" tag is ignored. -->
+<something-else-entirely>
+  <proxool>
+    <alias>Common</alias>	
+    <driver-url>jdbc:jtds:sqlserver://172.16.32.15:1433;DatabaseName=ETecland</driver-url>
+    <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>      
+    <driver-properties>
+      <property name="user" value="etecland"/>
+      <property name="password" value="etecland"/>
+    </driver-properties>
+    <minimum-connection-count>2</minimum-connection-count>
+    <maximum-connection-count>99999</maximum-connection-count>
+	<maximum-connection-lifetime>999999999</maximum-connection-lifetime>
+	<maximum-active-time>999999999</maximum-active-time>
+	<house-keeping-sleep-time>30000</house-keeping-sleep-time>
+	<!--house-keeping-test-sql>select sysdate from dual</house-keeping-test-sql--> 
+  </proxool>
+  <proxool>	
+	<alias>Centeral</alias>	
+    <driver-url>jdbc:oracle:thin:@172.16.32.28:1521:RA</driver-url>
+    <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>      
+    <driver-properties>
+      <property name="user" value="ETEC"/>
+      <property name="password" value="ETEC_ETEC"/>
+    </driver-properties>
+    <minimum-connection-count>2</minimum-connection-count>
+    <maximum-connection-count>99999</maximum-connection-count>
+	<maximum-connection-lifetime>999999999</maximum-connection-lifetime>
+	<maximum-active-time>999999999</maximum-active-time>
+	<house-keeping-sleep-time>30000</house-keeping-sleep-time>
+	<!--house-keeping-test-sql>select sysdate from dual</house-keeping-test-sql-->     
+  </proxool>
+  <proxool>	
+	<alias>TranEtecland</alias>	
+    <driver-url>jdbc:jtds:sqlserver://127.0.0.1:1433;DatabaseName=ETecland</driver-url>
+    <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>     
+    <driver-properties>
+      <property name="user" value="sa"/>
+      <property name="password" value="sa@qwer1234"/>
+    </driver-properties>
+    <minimum-connection-count>2</minimum-connection-count>
+    <maximum-connection-count>99999</maximum-connection-count>
+	<maximum-connection-lifetime>999999999</maximum-connection-lifetime>
+	<maximum-active-time>999999999</maximum-active-time>
+	<house-keeping-sleep-time>30000</house-keeping-sleep-time>
+	<!--house-keeping-test-sql>select sysdate from dual</house-keeping-test-sql-->     
+  </proxool>
+</something-else-entirely>
+
+
